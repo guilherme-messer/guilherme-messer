@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="860" height="430" viewBox="0 0 860 430" role="img" aria-labelledby="t">
+  <title id="t">Terminal rodando kubectl get pods no namespace guilherme-messer: Java/Spring Boot, Node.js Lambda, SQS, Terraform/Terragrunt, Jenkins/ArgoCD e auto-fix de erro 500 em Running, certificação AWS Completed e graduação em Engenharia de Software em ContainerCreating. Depois, os logs: Desenvolvedor Backend na South System.</title>
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", "DejaVu Sans Mono", monospace; font-size: 14.5px; white-space: pre; }
+    .fg { fill: #c9d1d9; } .dim { fill: #8b949e; } .grn { fill: #3fb950; } .blu { fill: #79c0ff; }
+    .ylw { fill: #d29922; } .prm { fill: #7ee787; } .bold { font-weight: 700; } .org { fill: #ffa657; }
+    .l { opacity: 0; animation: show .01s linear forwards; }
+    @keyframes show { to { opacity: 1; } }
+    .type1 { clip-path: inset(0 100% 0 0); animation: typing 1.2s steps(30) .4s forwards; }
+    .type2 { clip-path: inset(0 100% 0 0); animation: typing 1.1s steps(28) 4.4s forwards; }
+    @keyframes typing { to { clip-path: inset(0 0 0 0); } }
+    .creating { animation: pulse 1.6s ease-in-out infinite; animation-delay: 3.4s; }
+    @keyframes pulse { 50% { opacity: .45; } }
+    .cursor { opacity: 0; animation: blink 1s steps(1) 7.4s infinite; }
+    @keyframes blink { 0% { opacity: 1; } 50% { opacity: 0; } }
+    @media (prefers-reduced-motion: reduce) {
+      .l, .type1, .type2, .creating, .cursor { animation: none; opacity: 1; clip-path: none; }
+    }
+  </style>
+
+  <rect width="860" height="430" rx="10" fill="#0d1117"/>
+  <rect width="860" height="36" rx="10" fill="#161b22"/>
+  <rect y="26" width="860" height="10" fill="#161b22"/>
+  <circle cx="22" cy="18" r="6" fill="#ff5f57"/>
+  <circle cx="42" cy="18" r="6" fill="#febc2e"/>
+  <circle cx="62" cy="18" r="6" fill="#28c840"/>
+  <text x="430" y="23" text-anchor="middle" class="mono dim" style="font-size:13px">guilherme@eks-prod: ~</text>
+
+  <g class="mono">
+    <text x="24" y="66"><tspan class="prm">$ </tspan><tspan class="fg type1">kubectl get pods -n guilherme-messer</tspan></text>
+
+    <g class="l" style="animation-delay:1.8s"><text y="98" class="dim bold"><tspan x="24">NAME</tspan><tspan x="330">READY</tspan><tspan x="405">STATUS</tspan><tspan x="590">RESTARTS</tspan></text></g>
+    <g class="l" style="animation-delay:2.0s"><text y="122" class="fg"><tspan x="24">backend-java-spring-boot</tspan><tspan x="330">1/1</tspan><tspan x="405" class="grn">Running</tspan><tspan x="590">0</tspan></text></g>
+    <g class="l" style="animation-delay:2.15s"><text y="144" class="fg"><tspan x="24">backend-nodejs-lambda</tspan><tspan x="330">1/1</tspan><tspan x="405" class="grn">Running</tspan><tspan x="590">0</tspan></text></g>
+    <g class="l" style="animation-delay:2.3s"><text y="166" class="fg"><tspan x="24">messaging-aws-sqs</tspan><tspan x="330">1/1</tspan><tspan x="405" class="grn">Running</tspan><tspan x="590">0</tspan></text></g>
+    <g class="l" style="animation-delay:2.45s"><text y="188" class="fg"><tspan x="24">iac-terraform-terragrunt</tspan><tspan x="330">1/1</tspan><tspan x="405" class="grn">Running</tspan><tspan x="590">0</tspan></text></g>
+    <g class="l" style="animation-delay:2.6s"><text y="210" class="fg"><tspan x="24">deploy-jenkins-argocd</tspan><tspan x="330">1/1</tspan><tspan x="405" class="grn">Running</tspan><tspan x="590">0</tspan></text></g>
+    <g class="l" style="animation-delay:2.75s"><text y="232" class="fg"><tspan x="24">auto-fix-500-to-pr</tspan><tspan x="330">1/1</tspan><tspan x="405" class="grn">Running</tspan><tspan x="590">0</tspan><tspan x="680" class="dim"># febraban tech</tspan></text></g>
+    <g class="l" style="animation-delay:2.9s"><text y="254" class="fg"><tspan x="24">cert-aws-solutions-architect</tspan><tspan x="330">0/1</tspan><tspan x="405" class="blu">Completed</tspan><tspan x="590">0</tspan></text></g>
+    <g class="l" style="animation-delay:3.05s"><text y="276" class="fg"><tspan x="24">grad-eng-software-pucrs</tspan><tspan x="330">0/1</tspan><tspan x="405" class="ylw creating">ContainerCreating</tspan><tspan x="590">0</tspan><tspan x="680" class="dim"># eta: 2027</tspan></text></g>
+
+    <g class="l" style="animation-delay:4.2s"><text x="24" y="316"><tspan class="prm">$ </tspan><tspan class="fg type2">kubectl logs guilherme-messer</tspan></text></g>
+
+    <text x="24" y="346" class="l" style="animation-delay:5.8s"><tspan class="grn">[INFO] </tspan><tspan class="fg">Desenvolvedor Backend @ South System</tspan></text>
+    <text x="24" y="368" class="l" style="animation-delay:6.3s"><tspan class="grn">[INFO] </tspan><tspan class="fg">Java · Spring Boot · Node.js · AWS · Terraform · Kubernetes</tspan></text>
+    <text x="24" y="390" class="l" style="animation-delay:6.8s"><tspan class="org">[WARN] </tspan><tspan class="fg">HTTP 500 detectado → abrindo pull request de correção...</tspan></text>
+    <text x="24" y="416" class="l" style="animation-delay:7.3s"><tspan class="prm">$ </tspan></text>
+    <rect x="42" y="403" width="9" height="17" fill="#c9d1d9" class="cursor"/>
+  </g>
+</svg>
